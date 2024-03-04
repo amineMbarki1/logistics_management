@@ -5,12 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBEehjJPZOu5G5g56jN9LUdTvn6oUlBpCI",
-  authDomain: "logistics-dec71.firebaseapp.com",
-  projectId: "logistics-dec71",
-  storageBucket: "logistics-dec71.appspot.com",
-  messagingSenderId: "245841615239",
-  appId: "1:245841615239:web:e34b5935eb30a331b6db22",
+ 
 };
 
 // Initialize Firebase
