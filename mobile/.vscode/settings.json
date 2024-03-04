@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "Pressable"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "sql",
+            "database": "logistics_app",
+            "username": "amine"
+        }
+    ]
+}
