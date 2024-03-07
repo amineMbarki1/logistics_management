@@ -9,7 +9,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-03-04T14:57:06+0100",
+    date = "2024-03-06T00:36:06+0100",
     comments = "version: 1.5.5.Final, compiler: javac, environment: Java 21.0.1 (Oracle Corporation)"
 )
 public class TripMapperImpl implements TripMapper {
@@ -29,6 +29,7 @@ public class TripMapperImpl implements TripMapper {
         trip.setWidth( tripRequest.getWidth() );
         trip.setLength( tripRequest.getLength() );
         trip.setTask( tripRequest.getTask() );
+        trip.setScheduledDepartureTime( tripRequest.getScheduledDepartureTime() );
 
         return trip;
     }
